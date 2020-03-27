@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'myRegular';
+  src: url('../font/Neucha-Regular.ttf');
+}
+body{
+  font-family: 'myRegular';
+}
+
+
+
+/*Side Nav Menu*/
+#sidenav{
+  margin-left: -20px;
+}
+#sidenav div{
+  min-height: 80vh;
+  color: white;
+  font-size: 20px;
+  padding-left: 0px;
+  border-radius: 10px;
+}
+
+#sidenav ul{
+  list-style: none;
+}
+
+#sidenav ul li{
+  border-bottom: solid 1px;
+  border-bottom-color: white;
+  margin-left: -10px;
+  padding-left: 15px; 
+  padding-right: 15px;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+
+#sidenav ul li a{
+  text-decoration: none;
+  color: white;
+  display: list-item;
+  list-style-type: none;
+}
+
+#sidenav ul li a:active{
+  color: #593196;
+}
+
+#sidenav ul li:hover{
+  background-color: #593196;
+}
+
+.hide {
+  display: none;
+}
+
+#content {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
